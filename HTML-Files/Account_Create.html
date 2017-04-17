@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>
+Main Menu
+</title>
+<style>
+body
+{
+background-color:#3CB371;
+color:white;
+font-family:verdana;
+}
+h2
+{
+text-align:center;
+color:black;
+}
+</style>
+</head>
+<body>
+<h2>Account Creation Screen</h2><br/><br/>
+<form action="Form2" method="post">
+   Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="name" size=20 autofocus required /><br /><br />      
+   DOB(YYYY/MM/DD):<input type="date" name="dob" size=20 autofocus required/><br /><br />
+   Address:<br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea name="address" rows="6" cols="30" autofocus required/></textarea><br /><br />
+   Email ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="email" name="email" size=20 autofocus required/><br /><br />
+   Type Of Account: &nbsp;&nbsp;&nbsp;
+<select name="acctype">
+  <option value="Savings Account">Savings Account</option>
+  <option value="Current Accounts">Current Accounts</option>
+  <option value="Fixed Deposit">Fixed Deposit</option>
+  <option value="Recurring Deposit">Recurring Deposit</option>
+</select><br /><br /><br />
+  &nbsp;&nbsp;&nbsp; <input type="submit" value="Create Account" /><br />
+</form>
+</body>
+</html>
